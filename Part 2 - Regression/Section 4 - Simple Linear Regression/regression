@@ -1,0 +1,32 @@
+simple regression means we are find out a co - relation between two or more variable or features
+for example - co - relation b/w exeperience and salary
+creating model for that which will predict salary for particular employee exeperience
+how much salary should employee get at particular exeperience
+
+y = mx + c
+
+y = dependent variable
+x = independent variable
+m = slope or coefficient positive value will increase then salary will increase
+c = constant crossing to vertical axis
+
+in salary and experience case - salary is dependent variable and experience is independent variable
+here adding constant c is important because if employee have 0 years of ex means x = 0 then his salary going to be equal to constant variable
+
+find out best fitting line in simple linear regression model
+first  we subtract and then squere them and add them
+we doing squere here convert negative value into positive value 
+
+That is called ordinary least squares method
+
+SUM(y - y^)**2  -> min value line we pick for best fitting
+here is y = employee actual salary at particular year of experience
+and y^ is employee model salary at same year of experience
+
+for example - 
+find out distance b/w two point in algebra (x1,y1), (x2,y2)
+squere_root((y2-y1)**2 + (x2-x1)**2)
+
+distances b/w points
+5
+
